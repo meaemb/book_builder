@@ -16,7 +16,7 @@ public final class NovelBookBuilder implements BookBuilder {
     @Override public BookBuilder language(String l) { this.language = l; return this; }
 
     @Override public Book build() {
-        if (pages < 80) pages = 80; // роман тоже слишком маленьким не делаем
+        if (pages < 80) pages = 80;
         return new Book(title, author, genre, pages, hardCover, language);
     }
 }
