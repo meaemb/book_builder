@@ -2,22 +2,22 @@ package com.bookbuilder;
 
 public final class BookDirector {
     public Book makeMathTextbook(BookBuilder b) {
-        return b.titled("Algebra Basics")
-                .authoredBy("A. Smith")
+        return b.titled("Calculus 1")
+                .authoredBy("A. Herman")
                 .ofGenre(Book.Genre.EDUCATION)
-                .pages(180)
+                .pages(874)
                 .hardCover(true)
                 .language("EN")
                 .build();
     }
 
     public Book makeFantasyNovel(BookBuilder b) {
-        return b.titled("Dragon Valley")
-                .authoredBy("L. Green")
-                .ofGenre(Book.Genre.FANTASY)
-                .pages(320)
-                .hardCover(false)
-                .language("EN")
+        return b.titled("Tar jol taigaq keshu")
+                .authoredBy("S.Seifulin")
+                .ofGenre(Book.Genre.FICTION)
+                .pages(350)
+                .hardCover(true)
+                .language("KZ")
                 .build();
     }
 }

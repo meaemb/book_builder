@@ -8,12 +8,12 @@ public final class Demo {
         Book fantasy = director.makeFantasyNovel(new NovelBookBuilder());
 
         Book custom = new NovelBookBuilder()
-                .titled("Midnight City")
-                .authoredBy("I. Petrov")
-                .ofGenre(Book.Genre.FICTION)
-                .pages(200)
+                .titled("Q π Я")
+                .authoredBy("Quansyh Shonbay")
+                .ofGenre(Book.Genre.MOTIVATIONAL)
+                .pages(244)
                 .hardCover(true)
-                .language("RU")
+                .language("KZ")
                 .build();
 
         System.out.println("TEXTBOOK: " + math);

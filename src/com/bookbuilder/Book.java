@@ -3,7 +3,7 @@ package com.bookbuilder;
 import java.util.Objects;
 
 public final class Book {
-    public enum Genre { EDUCATION, FICTION, NONFICTION, FANTASY, SCIENCE }
+    public enum Genre { EDUCATION, FICTION, NONFICTION, FANTASY, SCIENCE, MOTIVATIONAL }
 
     private final String title;
     private final String author;
